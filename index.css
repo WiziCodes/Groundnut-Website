@@ -1,0 +1,153 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+  * {
+      padding: 0px;
+  }
+
+  body {
+      margin: 0px;
+      padding: 0px;
+  }
+
+  ul {
+      padding: 0px;
+      list-style: none;
+  }
+
+  nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      /* justify-content: space-between; */
+      height: 50px;
+      font-family: Happy Monkey;
+      color: white;
+  }
+
+  h1 {
+      margin: 0px;
+  }
+
+  .firstNavItems {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 80px;
+      flex: 3;
+  }
+
+  .firstNavItems ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .firstNavItems ul li {
+      cursor: pointer;
+      padding: 5px;
+      font-weight: 600;
+      padding: 5px 15px;
+  }
+
+  /* logoCont */
+  .logoCont {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 4;
+  }
+
+  .logoCont img {
+      width: 90px;
+  }
+
+  /* secondNav */
+  .secondNavItems {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 170px;
+      flex: 3.5;
+  }
+
+  .secondNavItems ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .secondNavItems ul li {
+      cursor: pointer;
+      padding: 5px 15px;
+      font-weight: 600;
+  }
+
+  /* landingPage */
+  .landingPage {
+      background-image: url(./Images/top-view-peanuts-shell-scattered-wooden-background-with-copy-space.jpg);
+      background-size: cover;
+      background-position: center;
+      padding-top: 100px;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      padding: 10px 80px;
+      border: 1px solid red;
+      height: 90vh;
+      border-bottom-left-radius: 150px;
+  }
+
+  .landingPage .textArea {
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      flex-direction: column;
+      padding: 10px;
+  }
+
+  .landingPage .textArea .headTxt {
+      width: 420px;
+      font-size: 25px;
+      margin-bottom: 10px;
+      color: white;
+      font-family: Happy Monkey;
+      font-weight: bold;
+  }
+
+  .landingPage .textArea .descTxt {
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      text-align: start;
+      width: 400px;
+  }
+
+  .landingPage .textArea .descTxt p {
+      color: white;
+      font-family: Roboto;
+      font-weight: 600;
+
+  }
+
+  .landingPage .textArea .btns {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      margin-top: 40px;
+  }
+
+  .landingPage .textArea .btns button {
+      padding: 10px 15px;
+      border-top-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+      border: none;
+      margin-right: 10px;
+      color: white;
+      font-family: Roboto;
+      font-weight: 600;
+  }
